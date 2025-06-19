@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+ 
+}
+
+.Navigation {
+  background-color: #000;
+  background-size: cover;
+ 
+}
+
+.navbar {
+  margin: 0 50px;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.829);
+  color: white;
+  padding: 10px 20px;
+  border-bottom: 2px solid #a0ffe2;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 30%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: rgb(124, 255, 253);
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+.rightNav {
+  text-align: right;
+}
+
+.btn {
+  background-color: #a0ffe2;
+  color: #000;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.Username {
+  color: #a0ffe2;
+  font-style: italic;
+  margin-left: 15px;
+  text-decoration: underline;
+}
+
+
+/* 🌐 Responsive Design */
+@media (max-width: 1024px) {
+ 
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 15px 20px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .nav-list li {
+    margin: 0;
+  }
+
+  .nav-list li a {
+    font-size: 1rem;
+  }
+
+  .rightNav {
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+  .Username{
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  .navbar {
+    padding: 10px 15px;
+  }
+
+  .nav-list {
+    gap: 10px;
+  }
+
+  .nav-list li a {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+   
+  }
+
+  .Username {
+    font-size: 0.9rem;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  
+
+  .navbar {
+    padding: 10px;
+  }
+
+  .nav-list {
+    gap: 8px;
+  }
+
+  .nav-list li a {
+    font-size: 0.85rem;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 0.85rem;
+    padding: 5px 10px;
+  
+  }
+
+  .Username {
+    font-size: 0.85rem;
+    margin-left: 0;
+  }
+}
+

@@ -1,0 +1,88 @@
+<div class="main-contact">
+    <div class="sub-contact">
+        <h2>Contact</h2>
+         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+
+    <div class="contact-detail">
+         <div class="contact-items">
+                  <div class="address-detail">
+                      <div class="address-icon">
+                            <button >
+                            <fa-icon [icon]="faLocationDot"></fa-icon> 
+                            </button>
+                      </div>
+                      <div class="address">
+                            <p id="headline">Address</p>
+                            <p>Plot no-40, gat no 202/2, Shivba Nager, Jalgaon-425002</p>
+                      </div>
+                </div>
+
+                <div class="phone-detail">
+                      <div class="phone-icon">
+                            <button >
+                            <fa-icon [icon]="faPhone"></fa-icon> 
+                            </button>
+                      </div>
+                      <div class="phone">
+                            <p id="headline">Contact-us</p>
+                            <p>+91 7821856342</p>
+                      </div>
+                </div>
+
+                <div class="email-detail">
+                      <div class="email-icon">
+                            <button >
+                            <fa-icon [icon]="faEnvelope"></fa-icon> 
+                            </button>
+                      </div>
+                      <div class="email">
+                            <p id="headline">Email us</p>
+                            <p>bhaveshkapade#gmail.com</p>
+                      </div>
+                </div>
+               
+         </div>
+
+         <div class="contact-input">
+               <div class="input-box">
+                   <form (ngSubmit)="submitForm()" #contactForm="ngForm" autocomplete="off">
+                        <div class="input1">
+                        <div class="input-name">
+                                <p>First Name</p>
+                                <input type="text"  name="First_name" [(ngModel)]="contactData.First_name" id="inp-nm">
+                        </div>
+                        <div class="input-name">
+                                 <p>Last Name</p>
+                                <input type="text" name="Last_name" [(ngModel)]="contactData.Last_name" id="inp-nm1">
+                        </div>
+                   </div>
+                   <div class="input2">
+                        <div class="input-name">
+                                <p>Phone Number</p>
+                                <input type="tel" name=" phone_number" [(ngModel)]="contactData.phone_number" id="inp-nm">
+                        </div>
+                        <div class="input-name">
+                                 <p>Email-Id</p>
+                                <input type="email" name="Email_id" [(ngModel)]="contactData.Email_id" id="inp-nm1">
+                        </div>
+                   </div>
+
+                    <div class="input3">
+                        <div class="input-name3">
+                                <p>Message</p>
+                               <textarea id="message" name="message" [(ngModel)]="contactData.message" rows="5" cols="30" placeholder="Type your message here..."></textarea>
+                        </div>
+                       
+                   </div>
+
+                   <button type="submit" class="btn">Submit</button>
+                   </form>
+               </div>
+         </div>
+    </div>
+</div>
+
+
+
+

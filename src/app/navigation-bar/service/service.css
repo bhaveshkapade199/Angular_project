@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Main-service{
+    height: 91vh;
+    background-image: url('/assets/images/service.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 99%;
+}
+
+.sub-service p{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-left: 5%;
+    padding-top: 35px;
+}
+
+.Services{
+    height: 70vh;
+    background-color:transparent;
+    width: 60%;
+    margin-left: 6%;
+    margin-top: 2.5%;
+    display: flex;
+}
+
+.Services1{
+    height: 70vh;
+    width: 50%;
+    background-color:transparent;
+
+}
+
+.Services2{
+    height: 70vh;
+    width: 50%;
+    background-color: transparent;
+}
+
+.service-card{
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+    width: 75%;
+    padding-left: 10px;
+    
+    margin-left: 45px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(147, 244, 249, 0.4);
+    border: 1px solid black;
+}
+#headline{
+    color: rgb(244, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 17px;
+    font-size: 24px;
+}
+
+.service-card p {
+   padding-left: 25px;
+   padding-right: 20px;
+   padding-top: 20px;
+   color: aqua;
+   font-size: 20px;
+   font-weight: 500;
+   font-family: 'Times New Roman', Times, serif;
+}
+.webicon{
+     color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+.btn{
+    height: 37px;
+    width: 290px;
+    background-color: rgba(0, 244, 248, 0.721);
+    border: 0;
+    padding: 10px 30px;
+    transition: 0.4s;
+    border-radius: 50px;
+    margin-left: 18px;
+    
+    margin-top: 40px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: inherit;
+}
+
+.btn:hover{
+    background-color: rgb(206, 255, 255);
+}
+
+
+.app-Icon{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.service-card1{
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+    width: 75%;
+    padding-left: 10px;
+    
+    
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(147, 244, 249, 0.4);
+    border: 1px solid black;
+}
+#headline{
+    color: rgb(244, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 17px;
+    font-size: 24px;
+}
+
+.service-card1 p {
+   padding-left: 25px;
+   padding-right: 20px;
+   padding-top: 20px;
+   color: aqua;
+   font-size: 20px;
+   font-weight: 500;
+   font-family: 'Times New Roman', Times, serif;
+}
+@media (max-width: 768px) {
+  .Main-service{
+    height: auto;
+    background-image: url('/assets/images/service.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 99%;
+}
+  .Services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Services1,
+  .Services2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .service-card,
+  .service-card1 {
+    width: 95%;
+    height: auto;
+  }
+
+  .btn {
+    width: 90%;
+  }
+}

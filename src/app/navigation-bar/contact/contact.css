@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-contact{
+    height: 92vh;
+    width: 100%;
+     background-image: url('/assets/images/bg5.jpg');
+    background-size: cover;
+}
+.sub-contact h2{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding-left: 5%;
+    padding-top: 2%;
+    text-decoration: underline solid aqua;
+   text-underline-offset: 10px;
+}
+.sub-contact p {
+    color: rgb(255, 255, 255);
+    padding-left: 5%;
+    padding-top: 1.5%;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.contact-detail{
+    height: 73vh;
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 2.0%;
+    background-color: transparent;
+    display: flex;
+}
+
+.contact-items{
+    height: 73vh;
+    width: 40%;
+    background-color: transparent;
+}
+
+/* address-detail */
+
+.address-detail{
+    height: 10vh;
+    width: 92%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 8.5%;
+    margin-left: 3%;
+     border: 0.5px solid rgba(1, 65, 65, 0.737);
+    display: flex;
+}
+.address-icon{
+    height: 10vh;
+    background-color: rgb(134, 134, 134);
+    width: 25%;
+    margin-left: 3%;
+}
+.address-icon{
+  text-align: center;  
+  
+  background-color: rgb(0, 0, 0);
+  width: 55px;                /* must be equal */
+  height: 55px; 
+  margin-top: 1.7%;              /* must be equal */
+  border-radius: 50%; 
+}
+.address-icon button{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    font-size: 30px;
+    padding-top: 5px;
+    color: rgb(255, 251, 223);
+}
+
+.address-icon button:hover{
+    color: white;
+}
+
+
+.address{
+    padding-left: 17px;
+    padding-top: 7px;
+}
+#headline{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+.address p{
+     color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+/* //contact -detail */
+
+.phone-detail{
+    height: 10vh;
+    width: 92%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 45px;
+    margin-left: 14px;
+    border: 0.5px solid rgba(1, 65, 65, 0.737);
+    display: flex;
+}
+.phone-icon{
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    width: 25%;
+    margin-left: 3%;
+}
+.phone-icon{
+  text-align: center;  
+  
+  background-color: rgb(0, 0, 0);
+  width: 55px;              
+  height: 55px; 
+  margin-top: 1.7%;             
+  border-radius: 50%; 
+}
+.phone-icon button{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    font-size: 25px;
+    padding-top: 10px;
+    color: rgb(247, 247, 247);
+}
+
+.phone-icon button:hover{
+    color: white;
+}
+
+
+.phone{
+    padding-left: 17px;
+    padding-top: 7px;
+}
+#headline{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+.phone p{
+     color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+
+/* //email field */
+
+.email-detail{
+    height: 10vh;
+    width: 92%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 45px;
+    margin-left: 14px;
+    border: 0.5px solid rgba(1, 65, 65, 0.737);
+    display: flex;
+}
+.email-icon{
+    height: 10vh;
+    background-color: rgb(134, 134, 134);
+    width: 25%;
+    margin-left: 3%;
+}
+.email-icon{
+  text-align: center;  
+  
+  background-color: rgb(0, 0, 0);
+  width: 55px;                /* must be equal */
+  height: 55px; 
+  margin-top: 1.7%;              /* must be equal */
+  border-radius: 50%; 
+}
+.email-icon button{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    font-size: 24px;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.email-icon button:hover{
+    color: white;
+}
+
+
+.email{
+    padding-left: 17px;
+    padding-top: 7px;
+}
+#headline{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+.email p{
+     color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+
+.contact-input{
+    height: 69vh;
+    width: 50%;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+
+
+.input-box{
+    height: 67vh;
+    width: 84%;
+    background-color:transparent;
+    margin-left: 5%;
+    padding-top: 10px;
+    margin-top: 2.0%;
+    border: 0.1px solid rgba(158, 158, 158, 0.799);
+}
+
+.input1{
+   height: 12vh;
+   width: 95%;
+   background-color:transparent;
+   margin-left: 14px;
+   display: flex;
+   margin-top: 2%;
+}
+
+.input-name{
+    height: 12vh;
+    width: 50%;
+    background-color:transparent;
+    margin-right: 10px;
+    margin-bottom: 10px;
+   
+}
+
+
+.input-name p{
+    padding-left: 22px;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+#inp-nm{
+    height: 20px;
+    width: 82%;
+    margin-left: 20px;
+    margin-top: 8px;
+    border: 1px solid rgba(193, 255, 255, 0.182);
+    border-radius: 4px;
+}
+#inp-nm:hover{
+    border: 1px solid rgb(0, 227, 252);
+}
+input[type="text"] {
+      padding: 10px;
+      border: 2px solid #4CAF50;
+      border-radius: 8px;
+      font-size: 16px;
+      color: rgb(255, 255, 255); 
+        background-color: #ababab5d;
+    }
+
+    input[type="text"]::placeholder {
+      color: gray; 
+      font-style: italic;
+    }
+
+    input[type="text"]:focus {
+      outline: none;
+      border-color: #008CBA;
+      background-color: #000000;
+    }
+
+.input-name1{
+    height: 12vh;
+    width: 50%;
+    background-color:transparent;
+}
+
+.input-name1 p{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+#inp-nm1{
+    height: 20px;
+    width: 84%;
+    margin-left:10px;
+    margin-top: 8px;
+    border: 1px solid rgba(193, 255, 255, 0.182);
+    border-radius: 4px;
+}
+#inp-nm1:hover{
+    border: 1px solid rgb(0, 227, 252);
+}
+
+.input2{
+   height: 12vh;
+   width: 95%;
+   background-color: transparent;
+   margin-left: 14px;
+   margin-top: 3%;
+   display: flex;
+}
+
+input[type="tel"] {
+      padding: 10px;
+      border: 2px solid #4CAF50;
+      border-radius: 8px;
+      font-size: 16px;
+      
+      color: rgb(255, 255, 255); /* user input text color */
+       background-color: #ababab5d;
+    }
+
+    input[type="tel"]::placeholder {
+      color: gray; /* placeholder text color */
+      font-style: italic;
+      
+    }
+
+    input[type="tel"]:focus {
+      outline: none;
+      border-color: #008CBA;
+      background-color: #000000;
+    }
+
+input[type="email"] {
+      padding: 10px;
+      border: 2px solid #4CAF50;
+      border-radius: 8px;
+      font-size: 16px;
+      color: rgb(255, 255, 255); /* user input text color */
+      background-color: #ababab5d;
+    }
+
+    input[type="email"]::placeholder {
+      color: gray; /* placeholder text color */
+      font-style: italic;
+    }
+
+    input[type="email"]:focus {
+      outline: none;
+      border-color: #008CBA;
+      background-color: #000000;
+    }
+
+.input3{
+   height: 24vh;
+   width: 95%;
+   background-color:transparent;
+   margin-left: 14px;
+   margin-top: 3%;
+   display: flex;
+}
+
+.input-name3 p{
+    padding-left: 16px;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+ textarea {
+     min-width: 450px;       
+      height: 90px;        
+      padding: 12px;       
+      font-size: 16px;      
+      border-radius: 3px;  
+      border: 1px solid rgba(193, 255, 255, 0.182);
+      background-color: #ababab5d;
+      color: #ffffff;          
+      resize: vertical;     
+      outline: none;    
+      margin-left: 15px;
+      margin-top: 4px;
+  }
+ textarea:hover{
+  background-color: black;
+ }
+ 
+.btn{
+    height: 40px;
+    width: 200px;
+    background-color: rgba(63, 255, 255, 0.721);
+    border: 0;
+    padding: 10px 30px;
+    transition: 0.4s;
+    border-radius: 50px;
+    margin-left: 33%;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: inherit;
+}
+
+.btn:hover{
+    background-color: white;
+     transition: 0.9s;
+}
+
+@media (max-width: 1024px) {
+  .contact-detail {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .contact-items, .contact-input {
+    width: 100%;
+    height: auto;
+  }
+
+  .input1, .input2, .input3 {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .input-name, .input-name1 {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .input-name p,
+  .input-name1 p,
+  .input-name3 p {
+    padding-left: 10px;
+  }
+
+  #inp-nm, #inp-nm1 {
+    width: 90%;
+    margin-left: 10px;
+  }
+
+  textarea {
+    width: 37%;
+    margin-left: 10px;
+    margin-top: 100px;
+  }
+
+  .btn {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .address-detail,
+  .phone-detail,
+  .email-detail {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+  }
+
+  .address-icon,
+  .phone-icon,
+  .email-icon {
+    margin: 0 auto;
+  }
+
+  .address, .phone, .email {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .sub-contact h2 {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  .sub-contact p {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    font-size: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}

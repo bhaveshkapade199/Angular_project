@@ -1,0 +1,24 @@
+
+ <div class="box">
+        <span class="borderLine"></span>
+        <form action="" autocomplete="off">
+            <h2>Sign in</h2>
+            <div class="inputBox">
+                <input [(ngModel)] = "userobj.User_name" name="User_name" type="text" required>
+                <span>Username</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input [(ngModel)] = "userobj.Password" name="Password" type="password" required>
+                <span>Password</span>
+                <i></i>
+            </div>
+            <div class="links">
+                <a href="#">Forgot Password</a>
+                <a href="#">Signup</a>
+            </div>
+            
+                <button class="submit" (click)="Submit()">Submit</button>
+            
+        </form>
+    </div>

@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about{
+    min-height: 93vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    
+}
+.sub-about h2{
+     color: rgb(255, 255, 255);
+     text-align: left;
+     font-size: 28px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 600;
+     padding-left: 2%;
+   
+     text-decoration: aqua underline;
+     text-underline-offset: 10px;
+     padding-top: 1.5%;
+}
+
+
+.sub-about p {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 2%;
+    padding-right: 10%;
+    padding-top: 1.5%;
+}
+
+.sub-about p:hover{
+    color: rgb(40, 212, 255);
+}
+
+.upper-side{
+   background-color: rgb(0, 0, 0);
+   min-height: 75vh;
+   margin-top: 6vh;
+   margin-left: 2%;
+   margin-right: 4%;
+   display: flex;
+}
+.about-image{
+    height: 55vh;
+    background-image: url('/assets/images/bk1.jpg');
+    background-size: cover;
+   
+    width: 30%;
+}
+.about-info{
+    height: 75vh;
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+}
+
+.about-headline h2{
+    color: rgb(0, 235, 239);
+    font-weight: 800;
+    
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px;
+}
+.about-headline h2:hover{
+    color: white;
+}
+
+.about-headline p {
+     color: rgb(255, 255, 255);
+     font-size: 2rch;
+     font-weight: 600;
+     font-family: 'Times New Roman', Times, serif;
+     padding-left: 30px;
+     padding-top: 10px;
+     padding-right: 20px;
+}
+.about-headline p:hover{
+    color: aqua;
+}
+
+.information{
+    height: 52vh;
+    background-color: black;
+    margin-top: 25px;
+    margin-left: 30px;
+    display: flex;
+}
+.part1{
+    height: 52vh;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+}
+#navigator{
+    color: rgb(0, 255, 255);
+    font-style: normal;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    padding-left: 7px;
+    padding-top: 7px;
+    font-size: 3rch;
+}
+#element{
+   color: rgb(157, 255, 255);
+   font-weight: 800;
+   font-size: 22px;
+   padding-left: 13px;
+   padding-top: 7px;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+
+#value{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+#element1{
+    padding-top: 20px;
+}
+#element2{
+    padding-top: 40px;
+}
+#element3{
+    padding-top: 40px;
+}
+#element4{
+    padding-top: 40px;
+}
+.part2{
+     height: 52vh;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+@media (max-width: 1024px) {
+  .upper-side,
+  .information {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image,
+  .about-info,
+  .part1,
+  .part2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-headline h2,
+  .about-headline p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sub-about h2 {
+    font-size: 22px;
+  }
+
+  .sub-about p {
+    font-size: 15px;
+    padding-right: 5%;
+  }
+
+  #navigator {
+    font-size: 2rem;
+  }
+
+  #element {
+    font-size: 18px;
+  }
+
+  #value {
+    font-size: 15px;
+  }
+
+  .about-headline p {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}

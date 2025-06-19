@@ -1,0 +1,29 @@
+<div class="Navigation">
+    
+    <nav class="navbar">
+
+        
+
+         <div class="Username">
+               <h3>{{User_Name}}</h3>
+        </div>
+        <ul class="nav-list"  >
+            <li><a routerLink = 'home'>Home</a></li>
+            <li><a routerLink = 'About-us'>about</a></li>
+             <li><a routerLink = 'Skill'>skills</a></li>
+            <li><a routerLink = 'Service'>Services</a></li>
+            <li><a routerLink = 'contact'>Contact</a></li>
+            
+            
+        </ul>
+      
+        <div class="rightNav">
+            <button class="btn btn-sm" (click)="logoff()" >log of</button>
+        </div>
+    </nav>
+
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+
+</div>
