@@ -8,7 +8,7 @@
     background-image: url('/assets/images/service.jpg');
     background-size: cover;
     background-position: center;
-    width: 99%;
+    width: 100%;
 }
 
 .sub-service p{
@@ -138,13 +138,12 @@
    font-weight: 500;
    font-family: 'Times New Roman', Times, serif;
 }
-@media (max-width: 768px) {
+@media (max-width: 940px) {
+    
   .Main-service{
-    height: auto;
-    background-image: url('/assets/images/service.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 99%;
+   height: auto;
+   width: 100%;
+   background-color: black;
 }
   .Services {
     flex-direction: column;

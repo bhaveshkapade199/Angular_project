@@ -40,7 +40,7 @@
 .upper-side{
    background-color: rgb(0, 0, 0);
    min-height: 75vh;
-   margin-top: 6vh;
+   margin-top: 8vh;
    margin-left: 2%;
    margin-right: 4%;
    display: flex;
@@ -140,52 +140,92 @@
     background-color: rgb(0, 0, 0);
 }
 
-@media (max-width: 1024px) {
-  .upper-side,
-  .information {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .about-image,
-  .about-info,
-  .part1,
-  .part2 {
+@media (max-width:940px) {
+  .about{
+    min-height: 55vh;
     width: 100%;
-    height: auto;
+    background-color: rgb(0, 0, 0);
+    position: relative;
   }
-
-  .about-headline h2,
-  .about-headline p {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
-@media (max-width: 600px) {
-  .sub-about h2 {
+  
+.sub-about h2{
     font-size: 22px;
   }
 
-  .sub-about p {
-    font-size: 15px;
-    padding-right: 5%;
-  }
+.sub-about p {
+  padding-top: 18px;
+  font-size: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.about-headline h2{
+   font-size: 22px;
+}
+.about-headline p{
+  font-size: 14px;
+}
+.upper-side {
+  flex-direction: column;   
 
-  #navigator {
-    font-size: 2rem;
-  }
+}
+  
+.about-image {
+  width: 50%;                 
+  height: 40vh;
+  background-size: cover;
+  margin-left: 100px;
+}
 
-  #element {
-    font-size: 18px;
-  }
+.about-info {
+  width: 100%;
+  height: auto;                
+  padding-top: 20px;
+}
 
-  #value {
-    font-size: 15px;
-  }
+.information {
+  width: 100%;                  
+  flex-direction: row;          
+  flex-wrap: wrap;
+  justify-content: space-between;
+   padding: 0 20px;    
+  box-sizing: border-box;
 
-  .about-headline p {
-    font-size: 1rem;
-    padding: 10px;
+}
+
+.part1,
+.part2 {
+  width: 47%;                   
+  padding-right: 5px;
+}
+.part2{
+  margin-right: 5px;
+}
+
+#element{
+   color: rgb(157, 255, 255);
+   font-weight: 800;
+   font-size: 18px;
+   padding-left: 13px;
+   padding-top: 7px;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+
+#value{
+   white-space: nowrap;        /* ✅ Don't wrap value text */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+}
+
+
+@media (max-width:500) {
+   .about{
+    min-height: 55vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
   }
 }

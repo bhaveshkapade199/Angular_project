@@ -9,13 +9,13 @@
 }
 
 .skill-headline h2{
-      color: rgb(255, 255, 255);
+      color: rgb(0, 216, 249);
       text-align: left;
       font-family: 'Times New Roman', Times, serif;
       font-weight: 800;
       font-size: 24px;
-      padding-left: 5.5%;
-      padding-top:3.5%;
+      padding-left: 6.5%;
+      padding-top:2.5%;
 }
 .skill-headline h2:hover{
    color: aqua;
@@ -28,7 +28,7 @@
 .Sub-skills-part{
     height: 53vh;
     background-color: rgb(0, 0, 0);
-    margin-top: 2%;
+    margin-top: 3%;
     width: 100%;
    
     display: flex;
@@ -38,7 +38,7 @@
   height: 48.5vh;
   width: 50%;
   background-color: rgb(0, 0, 0);
-  padding-left: 6%;
+  padding-left: 7%;
   padding-top: 2%;
 }
 .part-2{
@@ -141,109 +141,37 @@
 }
  
  
-@media screen and (max-width: 768px) {
+@media (max-width: 940px) {
   .Sub-skills-part {
-    flex-direction: column;
+   flex-direction: column;
+    height: auto;
+    margin: 0 20px;
+    margin-top: 20px;
   }
 
   .part-1,
   .part-2 {
     width: 100%;
+    padding: 10px 0;
+  
   }
 
-  #Skill-name,
-  #skill-percent {
-    font-size: 16px;
+  .part-2 {
+    margin-bottom: 10px;
+    margin-top: 5%;
+    padding-bottom: 10px;
+  }
+
+  .soft-skill {
+    width: 100%;
+    padding: 20px;
+    margin-top: 0px;
+   
   }
 
   .range-slider {
-    --thumb-w: 8px;
-    --thumb-h: 10px;
-  }
-  .part-2{
-    padding-left: 4%;
-  }
-  .soft-skill {
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
-    flex-direction: column;
-    align-items: flex-start;
-    height: auto;
-    gap: 5px;
-  }
-
-  #soft-skill,
-  #soft-skill-percent {
-    font-size: 15px;
-    padding-left: 0;
-  }
-  
-}
-
-@media screen and (max-width: 480px) {
-  .Sub-skills-part {
-    flex-direction: column;
-  }
-  
-  .skill-headline h2 {
-    font-size: 20px;
-    padding-left: 5%;
-  }
-   .part-1,
-  .part-2 {
     width: 100%;
+    justify-content: center;
+    margin: 20px;
   }
-
-  #Skill-name,
-  #skill-percent {
-    font-size: 15px;
-  }
-   .range-slider {
-    --thumb-w: 8px;
-    --thumb-h: 10px;
-  }
-  .part-2{
-    padding-left: 4%;
-  }
-    .soft-skill {
-    width: 95%;
-    padding-left: 4%;
-    padding-right: 4%;
-    flex-direction: column;
-    align-items: flex-start;
-    height: auto;
-    gap: 4px;
-  }
-
-  #soft-skill,
-  #soft-skill-percent {
-    font-size: 14px;
-  }
-
 }
-
-.soft-skill{
-  height: 7vh;
-  width: 70%;
-  background-color: rgb(0, 0, 0);
-}
-
-.soft-skill{
-   padding-left: 30%;
-}
-
-#soft-skill{
-   color: white;
-    font-size: 17px;
-    font-weight: 700;
-    font-family: 'Times New Roman', Times, serif;
-}
-#soft-skill-percent{
-   color: white;
-    font-size: 17px;
-    font-weight: 700;
-    font-family: 'Times New Roman', Times, serif;
-   padding-left: 47.5%;
-}
-
