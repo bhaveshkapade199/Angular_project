@@ -3,11 +3,12 @@ import { Home } from './navigation-bar/home/home';
 import { AboutUs } from './navigation-bar/about-us/about-us';
 
 import { Service } from './navigation-bar/service/service';
-import { Login } from './login/login';
+
 import { NavigationBar } from './navigation-bar/navigation-bar';
 import { authGuard } from './service/auth-guard';
 import { Skills } from './navigation-bar/skills/skills';
 import { ContactComponent } from './navigation-bar/contact/contact';
+import { Login } from './login/login';
 
 export const routes: Routes = [
 
