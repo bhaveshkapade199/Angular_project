@@ -15,7 +15,7 @@ export const routes: Routes = [
     //this is  the default route .means Suppose our route path is empty so bydefault our route redirect to the login page
      
     {
-        path:"",
+        path:"**",
         redirectTo : 'login',
         pathMatch:'full'
     },
