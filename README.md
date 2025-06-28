@@ -2,7 +2,7 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.0.
 
-## Development server
+# Development server
 
 To start a local development server, run:
 
@@ -10,50 +10,20 @@ To start a local development server, run:
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+# Project_Screenshot
 
-## Code scaffolding
+login
+![image alt](https://github.com/bhaveshkapade199/Angular_project/blob/af4b2bbfe1be449b0e34dcfc5d5445b290bd1471/login.png)
+login-Success
+![image_alt](https://github.com/bhaveshkapade199/Angular_project/blob/2905dd999c29db5c265e7e256cf1bc49f474d2ff/Login-Success.png)
+About
+![image_alt](https://github.com/bhaveshkapade199/Angular_project/blob/52e5f7b4a1d8232ade5ddf4e78751987a8365882/About.png)
+Skill
+![image_alt](https://github.com/bhaveshkapade199/Angular_project/blob/52e5f7b4a1d8232ade5ddf4e78751987a8365882/Skill.png)
+Service
+![image_alt](https://github.com/bhaveshkapade199/Angular_project/blob/935f2d0163ac91a67c923aa1a3933b5f6d573b8c/Service.png)
+contact
+![image_alt](https://github.com/bhaveshkapade199/Angular_project/blob/935f2d0163ac91a67c923aa1a3933b5f6d573b8c/Contact.png)
+Contact-message
+![image_alt](https://github.com/bhaveshkapade199/Angular_project/blob/1f6bf75a2739cb5d49653320289c6988f2c0ecd6/Success-message.png)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
