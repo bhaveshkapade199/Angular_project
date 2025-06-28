@@ -14,3 +14,6 @@ ng serve
 
 ![image alt](https://github.com/bhaveshkapade199/Angular_project/blob/af4b2bbfe1be449b0e34dcfc5d5445b290bd1471/login.png)
 ![image_alt](https://github.com/bhaveshkapade199/Angular_project/blob/2905dd999c29db5c265e7e256cf1bc49f474d2ff/Login-Success.png)
+![image_alt](https://github.com/bhaveshkapade199/Angular_project/blob/52e5f7b4a1d8232ade5ddf4e78751987a8365882/About.png)
+![image_alt](https://github.com/bhaveshkapade199/Angular_project/blob/52e5f7b4a1d8232ade5ddf4e78751987a8365882/Skill.png)
+
