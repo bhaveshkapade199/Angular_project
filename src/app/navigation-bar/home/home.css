@@ -92,12 +92,12 @@
 .icons {
   margin-top: 40px;
   text-align: center;
+  
 }
 .icons a {
   color: aqua;
   margin: 30px;
-  font-size: 22px;
-  border: 2px solid aqua;
+  font-size: 24px;
 }
 
 .icons a:hover {

@@ -28,7 +28,7 @@ export class ContactComponent {
 
   submitForm() {
     console.log( this.contactData);
-    Swal.fire('Done!', 'Your message is done', 'success');
+    Swal.fire('Done!', 'Your message Sent Sucessfully', 'success');
    
     this.contactData = {
       First_name: '',
